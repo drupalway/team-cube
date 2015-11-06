@@ -23,5 +23,5 @@ before_install:
   # Register the Drupal and DrupalPractice Standard with PHPCS
   - phpcs --config-set installed_paths ~/.composer/vendor/drupal/coder/coder_sniffer
 
- script:
+script:
   - phpcs --standard=Drupal -n --extensions='module,install,profile,php,inc' docroot || exit 1
