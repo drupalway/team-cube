@@ -1,1 +1,1 @@
-Folder for custom modules.
+Folder for contrib and custom modules.

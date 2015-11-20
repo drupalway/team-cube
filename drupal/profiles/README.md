@@ -1,1 +1,1 @@
-Folder for custom profiles.
+Folder for contrib and custom profiles.
