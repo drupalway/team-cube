@@ -25,7 +25,9 @@
     "drupal/core": ">=8.0.0",
     "drush/drush": "dev-master",
     "drupal/console": "dev-master",
-    "drupalway/drupal-vm": "dev-master",
+    "drupalway/drupal-vm": "dev-master"
+  },
+  "require-dev": {
     "drupal/devel": "8.1.*@dev"
   },
   "extra": {
