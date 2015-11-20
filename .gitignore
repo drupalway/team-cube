@@ -4,6 +4,9 @@
 # Ignore core.
 drupal/core
 
+# Ignore contribs.
+drupal/*/contrib
+
 # Ignore drupal-vm.
 drupal-vm
 
