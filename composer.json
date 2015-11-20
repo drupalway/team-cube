@@ -19,6 +19,9 @@
       }
     }
   ],
+  "config": {
+    "vendor-dir": "packages"
+  },
   "require": {
     "composer/installers": "~1.0",
     "mnsami/composer-custom-directory-installer": "1.0.*",

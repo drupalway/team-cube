@@ -10,8 +10,8 @@ drupal/*/contrib
 # Ignore drupal-vm.
 drupal-vm
 
-# Ignore vendor.
-vendor
+# Ignore packages.
+packages
 
 # Ignore composer.lock.
 composer.lock
