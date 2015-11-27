@@ -1,0 +1,44 @@
+{
+    "name": "team-cube",
+    "description": "Project template for Drupal 8 projects with composer",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "",
+            "role": ""
+        }
+    ],
+    "support": {},
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.drupal-composer.org"
+        }
+    ],
+    "require": {
+        "composer/installers": "1.0.21",
+        "netresearch/composer-patches-plugin": "~1.0",
+        "drupal/core": "8.0.0@stable",
+        "drupal/devel": "8.1.*@dev",
+        "drupal/token": "8.1.*@dev",
+        "drupal/paragraphs": "8.x-1.x-dev",
+        "drupal/entity_reference_revisions": "8.x-1.x-dev"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "preferred-install" : "dist",
+    "scripts": {
+    },
+    "extra": {
+        "installer-paths": {
+            "core": ["type:drupal-core"],
+            "profiles/kwd8/modules/contrib/{$name}": ["type:drupal-module"],
+            "profiles/kwd8/contrib/{$name}": ["type:drupal-profile"],
+            "profiles/kwd8/themes/contrib/{$name}": ["type:drupal-theme"]
+        },
+        "patches": {
+
+        }
+    }
+}

@@ -1,0 +1,40 @@
+#drupal core
+/core
+/vendor
+/sites
+
+#profiles
+# ignore modules in contrib, but keep the README.md
+profiles/*/modules/contrib/*
+!profiles/*/modules/contrib/README.md
+
+# ignore modules in kraftwagen, but keep the README.md
+profiles/*/modules/kraftwagen/*
+!profiles/*/modules/kraftwagen/README.md
+
+# ignore modules in sandbox, but keep the README.md
+profiles/*/modules/sandbox/*
+!profiles/*/modules/sandbox/README.md
+
+# ignore modules in devel, but keep the README.md
+profiles/*/modules/devel/*
+!profiles/*/modules/devel/README.md
+
+# ignore libraries in libraries, but keep the README.md
+libraries/*
+!libraries/README.md
+
+# OS specific shit
+.DS_Store
+Thumbs.db
+
+# IDE specific shit
+.idea
+
+
+#composer
+composer.lock
+
+
+#ide
+/.idea
