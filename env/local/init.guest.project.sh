@@ -5,6 +5,7 @@ drush cc drush
 
 cd /var/www/tc.dw
 drush kw-s
+cp -f src/cnf/default.settings.php cnf/default.settings.php
 drush kw-b
 cd build
-drush si kwd8
+drush si kwd8 -y
